@@ -1,8 +1,8 @@
 var editor = $(parent.document.body)
 
-editor.find("div").css({background:"aquamarine"})
+editor.find("div").css({background:"black"})
 var topbar = $(parent.parent.document.body).find("#topbar")
-
+topbar.css({background: "green"})
 topbar.append("<div>HI THERE</div>")
 //
 var allDivsInTheEditor = editor.find("div")
