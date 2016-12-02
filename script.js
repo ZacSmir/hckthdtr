@@ -5,7 +5,7 @@ var topbar = $(parent.parent.document.body).find("#topbar")
 topbar.css({background: "grey"})
 topbar.append("<div>HI THERE</div>")
 //
-var nukerussia = $()
+var nukerussia = $(parent.parent.document.body).find(".t")
 var allDivsInTheEditor = editor.find("div")
 
 
